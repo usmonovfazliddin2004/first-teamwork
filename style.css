@@ -187,6 +187,11 @@
         text-align: center;
         margin-top: 23.28px;
     }
+    .begin{
+        display: flex;
+        gap: 88px;
+        align-items: center;
+    }
     .coffes{
         display: flex;
         gap: 88px;
@@ -241,7 +246,205 @@
 
 @media screen and (max-width:377px){
 /* umar uchun */
-
+.container{
+    width: 377px;
+    background: linear-gradient(180.00deg, rgb(75, 44, 36),rgb(43, 23, 18) 100%);
+}
+.navbar{
+    width: 376px;
+    height: 64px;
+    padding-left: 143px;
+    padding-top: 17px;
+}
+.logo{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.logo img{
+    width: 28px;
+    height: 28px;
+}
+.logo p{
+    color: rgb(255, 255, 255);
+    font-family: Pacifico;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+ul{
+    display: flex;
+    gap: 72px;
+    align-items: center;
+    display: none;
+}
+.header{
+    padding-top: 67px;
+    padding-left: 24px;
+}
+.head{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head img{
+    width: 320px;
+    height: 354.56px;
+}
+.text{
+    padding-top: 0px;
+    padding-left: 0px;
+    width: 328px;
+    height: 340px;
+    align-items: center;
+}
+.QUALITY{
+    width: 163px;
+    color: rgb(221, 182, 111);
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: 82px;
+}
+.text h1{
+    width: 273px;
+    color: rgb(255, 255, 255);
+    font-family: Pacifico;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 35px;
+    margin-left: 25px;
+}
+.select{
+    width: 328px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.but{
+    width: 148px;
+    height: 40px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 28px 16px 0px;
+    border-radius: 64px;
+    border: none;
+    box-shadow: 0px 8px 32px 0px rgba(221, 183, 112, 0.25);
+    /* second-color */
+    background: rgb(221, 182, 111);
+    margin-top: 32px;
+    margin-bottom: 55.44px;
+    margin-left: 76px;
+}
+.but p{
+    color: rgb(46, 38, 36);
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.but img{
+    width: 7.78px;
+    height: 12.73px;
+}
+.header2{
+    position: static;
+    width: 376px;
+    flex: none;
+    background: rgb(73, 45, 38);
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    padding-left: 24px;
+}
+.text2{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.but1{
+    width: 148px;
+    height: 40px;
+    display: flex;
+    gap: 13.64px;
+    align-items: center;
+    padding: 0px 28px 16px 0px;
+    border-radius: 64px;
+    border: none;
+    box-shadow: 0px 8px 24px 0px rgba(27, 17, 14, 0.5);
+    background: rgb(43, 23, 18);
+    margin-left: 76px;
+}
+.but1 p{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.but1 img{
+    width: 12.73px;
+    height: 7.78px;
+}
+.strive{
+    width: 328px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.cappucino p{
+    color: rgb(255, 255, 255);
+    font-family: Pacifico;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 23.28px;
+}
+.begin{
+    display: flex;
+    gap: 56px;
+    align-items: center;
+}
+.cappucino img{
+    width: 120px;
+    height: 168.72px;
+}
+.coffes{
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    align-items: center;
+    margin-bottom: 132px;
+    margin-left: 15px;
+    align-items: flex-start;
+}
 
 
 
