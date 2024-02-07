@@ -18,11 +18,11 @@ body {
   gap: 107px;
   padding: 0px 160px 172px 160px;
 }
-.Fazliddin_section div:nth-child(1) img {
+.img_5 {
   width: 550px;
   height: 366.85px;
 }
-.Fazliddin_section div:nth-child(2) h1 {
+.section_box h1 {
   color: rgb(46, 38, 36);
   font-family: Pacifico;
   font-size: 48px;
@@ -31,7 +31,7 @@ body {
   letter-spacing: 0%;
   margin-top: 82px;
 }
-.Fazliddin_section div:nth-child(2) p {
+.section_box p {
   color: rgb(91, 76, 72);
   font-family: Poppins;
   font-size: 16px;
@@ -182,7 +182,7 @@ body {
     padding-left: 24px;
     padding-right: 24px;
   }
-  .Fazliddin_section div:nth-child(1) img {
+  .img_5 {
     width: 328px;
     height: 218.78px;
   }
