@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 /* Umar */
+    .container{
+        width: 1440px;
+        background: linear-gradient(180.00deg, rgb(75, 44, 36),rgb(43, 23, 18) 100%);
+    }
     .navbar{
         /* Header */
         position: absolute;
@@ -16,7 +20,6 @@
         padding-top: 27px;
         padding-left: 160px;
         padding-right: 160px;
-        background: linear-gradient(180.00deg, rgb(75, 44, 36),rgb(43, 23, 18) 100%);
         display: flex;
         justify-content: space-between;
     }
@@ -51,6 +54,79 @@
         letter-spacing: 0%;
         text-align: left;
         text-decoration: none;
+    }
+    li a:hover{
+        color: brown;
+    }
+    .header{
+        padding-top: 93px;
+        padding-left: 186px;
+    }
+    .head{
+        width: 1069px;
+        display: flex;
+    }
+    .text{
+        padding-top: 94px;
+        padding-left: 72px;
+    }
+    .QUALITY{
+        width: 174px;
+        color: rgb(221, 182, 111);
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .text h1{
+        width: 447px;
+        color: rgb(255, 255, 255);
+        font-family: Pacifico;
+        font-size: 72px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 12px;
+        margin-bottom: 38.17px;
+        display: flex;
+    }
+    .select{
+        width: 412px;
+        color: rgb(255, 255, 255);
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .but{
+        width: 154px;
+        height: 40px;
+        display: flex;
+        gap: 18.22px;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0px 28px 16px 0px;
+        border-radius: 64px;
+        border: none;
+        box-shadow: 0px 8px 32px 0px rgba(221, 183, 112, 0.25);
+        /* second-color */
+        background: rgb(221, 182, 111);
+        margin-top: 48px;
+        margin-bottom: 177.83px;
+    }
+    .but p{
+        color: rgb(46, 38, 36);
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
     }
 
 
