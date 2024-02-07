@@ -37,9 +37,167 @@
 
 
 /* lazizbek */
+.wrapper{
+    max-width: 1440px;
+}
+.first{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    align-items: center;
+    padding-bottom: 132px;
+}
+.writings{
+    width: 538px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.writings h1{
+    color: rgb(46, 38, 36);
+font-family: Pacifico;
+font-size: 48px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.writings p{
+    color: rgb(91, 76, 72);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+footer{
+    width: 100%;
+    padding-top: 96px;
+    padding-bottom: 48px;
+    border-radius: 104px 104px 0px 0px;
 
+/* first-color-alt */
+background: rgb(43, 23, 18);
+background-image: url(images/bg-coffee-beans\ 1.png);
+display: flex;
+flex-direction: column;
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 160px;
+    margin-bottom: 96px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.cofe{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+.cofe span{
+    color: rgb(255, 255, 255);
+font-family: Pacifico;
+font-size: 20px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: left;
+}
+.left h1{
+    color: rgb(255, 255, 255);
+font-family: Pacifico;
+font-size: 36px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.right input{
+    width: 360px;
+    height: 64px;
+    /* text-color-light */
+border: 2px solid rgb(132, 117, 113);
+border-radius: 64px;
 
+/* text-color-light */
+background: rgb(132, 117, 113);
+background: rgb(43, 23, 18);
+padding-left: 25px;
+color: rgb(132, 117, 113);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 24px;
+}
+.right button{
+    width: 360px;
+    height: 44px;
+    border-radius: 64px;
 
+box-shadow: 0px 8px 32px 0px rgba(221, 183, 112, 0.25);
+/* second-color */
+background: rgb(221, 182, 111);
+display: flex;
+gap: 16px;
+justify-content: center;
+align-items: center;
+border: none;
+color: rgb(0, 0, 0);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 44px;
+}
+.right p{
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: left;
+color: white;
+}
+.right p span{
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: left;
+color: rgb(221, 182, 111);
+}
+.photos{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 64px;
+    margin-left: 643px;
+}
+.final span{
+    color: rgb(132, 117, 113);
+font-family: Poppins;
+font-size: 13px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 580px;
+}
 
 
 
@@ -78,15 +236,104 @@
 
 
 /* lazizbek uchun */
+.wrapper{
+    width: 100%;
+}
+.first{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    text-align: center;
+    justify-content: center;
+}
+.writings{
+    width: 100%;
+    text-align: center;
+    gap: 24px;
+}
+.writings h1{
+    font-size: 28px;
+    line-height: 120%;
+    text-align: center;
+}
+.writings p{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    line-height: 23px;
+}
+.image{
+    width: 100%;
+}
+.image img{
+    width: 100%;
+}
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 48px;
+    align-items: center;
+}
+.inner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 24px;
+    gap: 48px;
+}
+.left{
+    width: 100%;
+    text-align: center;
+}
+.cofe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.cofe img{
+    width: 24px;
+    height: 24px;
+}
+.cofe span{
+    font-size: 12px;
+    line-height: 26px;
+}
+.left h1{
+    font-size: 25px;
+    text-align: center;
+}
+.right{
+    width: 100%;
+}
+.right input{
+    width: 100%;
+}
+.right button{
+    width: 100%;
+}
+.right p{
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+}
+.photos{
+    margin-left: 0px;
+}
+.final{
+    width: 100%;
 
-
-
-
-
-
-
-
-
+}
+.final span{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+}
 
 
 }
