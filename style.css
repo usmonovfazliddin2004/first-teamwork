@@ -214,7 +214,161 @@
 
 
 /* Fazliddin bro */
-
+.Fazliddin_section {
+    width: 1440px;
+    height: 539px;
+    background: #fff;
+    display: flex;
+    gap: 107px;
+    padding: 0px 160px 172px 160px;
+  }
+  .img_5 {
+    width: 550px;
+    height: 366.85px;
+  }
+  .section_box h1 {
+    color: rgb(46, 38, 36);
+    font-family: Pacifico;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-top: 82px;
+  }
+  .section_box p {
+    color: rgb(91, 76, 72);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-top: 24px;
+    width: 463px;
+  }
+  .Fazliddin_section1 {
+    width: 1440px;
+    height: 780px;
+    background: rgb(73, 45, 38);
+    padding-top: 64px;
+  }
+  .Fazliddin_section1 h1 {
+    color: rgb(255, 255, 255);
+    font-family: Pacifico;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .Fazliddin_section1_chiziq {
+    box-sizing: border-box;
+    border: 2px dashed rgb(132, 117, 113);
+    width: 650px;
+    height: 650px;
+    margin-left: 395px;
+    margin-top: -172px;
+  }
+  .Fazliddin_section1_chiziq1 {
+    width: 1440px;
+    height: 656px;
+    border: 2px dashed rgb(132, 117, 113);
+    box-sizing: border-box;
+    margin-top: -550px;
+  }
+  .Fazliddin_section1_box {
+    display: flex;
+    gap: 116px;
+  }
+  .Steps_photo {
+    margin-top: -500px;
+  }
+  .Steps_photo img {
+    width: 260px;
+    height: 260px;
+    margin-left: 208px;
+  }
+  .Steps_number img {
+    margin-left: 208px;
+    width: 85px;
+    height: 85px;
+  }
+  .Steps_number {
+    margin-top: -260px;
+  }
+  .Harvest p {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    width: 272px;
+    margin-top: 180px;
+    margin-left: 220px;
+  }
+  .beans {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    width: 272px;
+    margin-top: -410px;
+  }
+  .Steps_number1 img {
+    width: 85px;
+    height: 85px;
+    margin-top: 60px;
+  }
+  .Steps_number1 {
+    margin-top: -300px;
+    margin-left: -15px;
+  }
+  .Steps_image img {
+    width: 260px;
+    height: 260px;
+  }
+  .Steps_image2 {
+    margin-top: -100px;
+    margin-left: -20px;
+  }
+  .Steps_image2 img {
+    width: 260px;
+    height: 260px;
+  }
+  .Steps_number2 {
+    margin-top: -500px;
+  }
+  .Steps_number2 img {
+    width: 85px;
+    height: 85px;
+  }
+  .Steps_photo1 {
+    margin-top: -500px;
+  }
+  .Steps_photo1 img {
+    width: 260px;
+    height: 260px;
+    margin-left: -20px;
+  }
+  .Steps_number2 img {
+    width: 85px;
+    height: 85px;
+  }
+  .Steps_number2 {
+    margin-top: -260px;
+  }
+  .coffee {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    width: 272px;
+    margin-top: 180px;
+  }
 
 
 
@@ -617,7 +771,147 @@ ul{
 
 
 /* fazliddin bro uchun */
+.Fazliddin_section {
+    width: 376px;
+    height: 615px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .img_5 {
+    width: 328px;
+    height: 218.78px;
+  }
+  .Fazliddin_section div:nth-child(2) h1 {
+    text-align: center;
+    margin-top: -48px;
+  }
+  .Fazliddin_section div:nth-child(2) p {
+    color: rgb(91, 76, 72);
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 328px;
+  }
+  .Fazliddin_section1 {
+    width: 376px;
+    height: 1000px;
+    padding: 40px 24px 0px 24px;
+  }
+  .Fazliddin_section1 h1 {
+    color: rgb(255, 255, 255);
+    font-family: Pacifico;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 328px;
+  }
+  .Fazliddin_section1_chiziq1 {
+    display: none;
+  }
+  .Fazliddin_section1_chiziq {
+    display: none;
+  }
+  .Steps_number img {
+    width: 50px;
+    height: 50px;
+  }
+  .Steps_number {
+    margin-top: -150px;
+    margin-left: -220px;
+  }
+  .Steps_photo img {
+    width: 150px;
+    height: 150px;
+  }
+  .Steps_photo {
+    margin-top: 50px;
+    margin-left: -220px;
+  }
+  .Harvest p {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 5px;
+  }
+  .Steps_number1 img {
+    width: 50px;
+    height: 50px;
+  }
+  .Steps_number1 {
+    margin-left: 100px;
+    margin-top: -210px;
+    width: 100px;
+  }
+  .Steps_image img {
+    width: 150px;
+    height: 150px;
+  }
+  .Steps_image {
+    margin-top: -230px;
+    margin-left: 100px;
+    width: 100px;
+  }
+  .beans p {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: right;
+    width: 250px;
+    margin-top: 500px;
+    margin-left: 70px;
+  }
+  .Steps_number2 img {
+    width: 50px;
+    height: 50px;
+  }
+  .Steps_number2 {
+    margin-top: -150px;
 
+    width: 300px;
+  }
+  .Steps_photo1 img {
+    width: 150px;
+    height: 150px;
+  }
+  .Steps_photo1 {
+    margin-top: 100px;
+    margin-left: 10px;
+    width: 300px;
+  }
+  .Fazliddin_section1_box {
+    display: flex;
+    flex-direction: column;
+  }
+  .coffee p {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 250px;
+    margin-left: 10px;
+    margin-top: -70px;
+  }
 
 
 
