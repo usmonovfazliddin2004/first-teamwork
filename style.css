@@ -13,7 +13,6 @@ body {
   width: 1440px;
   height: 539px;
   background: #fff;
-  margin: auto;
   display: flex;
   gap: 107px;
   padding: 0px 160px 172px 160px;
@@ -44,7 +43,6 @@ body {
 .Fazliddin_section1 {
   width: 1440px;
   height: 780px;
-  margin: auto;
   background: rgb(73, 45, 38);
   padding-top: 64px;
 }
